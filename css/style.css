@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: #4a4f56;
+}
+.header .container{
+    width: 534px;
+    min-height: 82px;
+    text-align: center;
+    margin-left: 129px;
+    margin-right: 130px;
+}
+.container h1{
+    padding: 19px 0 14px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff8984;
+}
+h1+p{
+    padding-bottom: 13px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ff8984;
+}
+main{
+    min-width: 793px;
+    min-height: 507px;
+    background-color: #3B3F45;
+}
+main .container{
+    width: 534px;
+    min-height: 270px;
+    margin: 0 130px 45px 129px;
+}
+.container ul{
+    padding-top: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.container-items li{
+    width: 534px;
+    height: 45px;
+    padding: 12px;
+}
+.container-items .items-one{
+    border-style: none;
+    background-color: #88839e;
+    color: #fff;
+}
+.container-items .items-two{
+    border-style: none;
+    background-color: #7a7593;
+    color: #fff;
+}
+.container-items .items-three{
+    border-style: none;
+    background-color: #88839e;
+    color: #fff;
+}
+.container-items .items-four{
+    border-style: none;
+    background-color: #7a7593;
+    color: #fff;
+}
+.container-items .items-five{
+    border-style: none;
+    background-color: #88839e;
+    color: #fff;
+}
+.container-items :nth-child(6){
+    border-style: none;
+    background-color: #7a7593;
+    color: #fff;
+}
+.label .checkbox-custom{
+    height: 19px;
+    width: 19px;
+}
+li span{
+    font-size: 18px;
+    font-weight: normal;
+}
+li span .text{
+    font-size: 11px;
+}
+.text::before{
+    content:"(";
+}
+.text::after{
+    content: ")";
+}
+.container-items li:hover{
+    background-color: #625e77;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.container-items li:active{
+    background-color: #ff8984;
+}
+input[type="checkbox"]:checked+span{
+    text-decoration: line-through;
+}
+.label input[type="text"]{
+    width: 534px;
+    height: 45px;
+    margin: 0 130px 45px 129px;
+}
+input[type="text"]{
+    background-color: #4a4f56;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+input::placeholder{
+    color: #ff8984;
+    font-size: 18px;
+    font-weight: normal;
+    border-style: none;
+}
